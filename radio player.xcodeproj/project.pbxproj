@@ -15,6 +15,7 @@
 		C9A6D99422BECAED0080AFDB /* radio_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D99322BECAED0080AFDB /* radio_playerUITests.swift */; };
 		C9A6D9A422BECB0D0080AFDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A6D9A222BECB0D0080AFDB /* AVFoundation.framework */; };
 		C9A6D9A522BECB0D0080AFDB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A6D9A322BECB0D0080AFDB /* AVKit.framework */; };
+		C9BFFDCA22BFEC6E00BD4F02 /* radioicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9BFFDC922BFEC6D00BD4F02 /* radioicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C9A6D9A222BECB0D0080AFDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C9A6D9A322BECB0D0080AFDB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		C9A6D9A622BED9460080AFDB /* radio player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "radio player.entitlements"; sourceTree = "<group>"; };
+		C9BFFDC922BFEC6D00BD4F02 /* radioicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				C9A6D97922BECAED0080AFDB /* Assets.xcassets */,
 				C9A6D97B22BECAED0080AFDB /* Main.storyboard */,
 				C9A6D97E22BECAED0080AFDB /* Info.plist */,
+				C9BFFDC922BFEC6D00BD4F02 /* radioicon.png */,
 				C9A6D97F22BECAED0080AFDB /* radio_player.entitlements */,
 			);
 			path = "radio player";
@@ -256,6 +259,7 @@
 			files = (
 				C9A6D97A22BECAED0080AFDB /* Assets.xcassets in Resources */,
 				C9A6D97D22BECAED0080AFDB /* Main.storyboard in Resources */,
+				C9BFFDCA22BFEC6E00BD4F02 /* radioicon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
