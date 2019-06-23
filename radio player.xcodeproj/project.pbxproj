@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A6D97622BECAEA0080AFDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D97522BECAEA0080AFDB /* AppDelegate.swift */; };
+		C9A6D97822BECAEA0080AFDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D97722BECAEA0080AFDB /* ViewController.swift */; };
+		C9A6D97A22BECAED0080AFDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9A6D97922BECAED0080AFDB /* Assets.xcassets */; };
+		C9A6D97D22BECAED0080AFDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9A6D97B22BECAED0080AFDB /* Main.storyboard */; };
+		C9A6D98922BECAED0080AFDB /* radio_playerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D98822BECAED0080AFDB /* radio_playerTests.swift */; };
+		C9A6D99422BECAED0080AFDB /* radio_playerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9A6D99322BECAED0080AFDB /* radio_playerUITests.swift */; };
+		C9A6D9A422BECB0D0080AFDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A6D9A222BECB0D0080AFDB /* AVFoundation.framework */; };
+		C9A6D9A522BECB0D0080AFDB /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9A6D9A322BECB0D0080AFDB /* AVKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9A6D98522BECAED0080AFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A6D96A22BECAEA0080AFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A6D97122BECAEA0080AFDB;
+			remoteInfo = "radio player";
+		};
+		C9A6D99022BECAED0080AFDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9A6D96A22BECAEA0080AFDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9A6D97122BECAEA0080AFDB;
+			remoteInfo = "radio player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9A6D97222BECAEA0080AFDB /* radio player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "radio player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6D97522BECAEA0080AFDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C9A6D97722BECAEA0080AFDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9A6D97922BECAED0080AFDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C9A6D97C22BECAED0080AFDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C9A6D97E22BECAED0080AFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A6D97F22BECAED0080AFDB /* radio_player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = radio_player.entitlements; sourceTree = "<group>"; };
+		C9A6D98422BECAED0080AFDB /* radio playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radio playerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6D98822BECAED0080AFDB /* radio_playerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radio_playerTests.swift; sourceTree = "<group>"; };
+		C9A6D98A22BECAED0080AFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A6D98F22BECAED0080AFDB /* radio playerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "radio playerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A6D99322BECAED0080AFDB /* radio_playerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radio_playerUITests.swift; sourceTree = "<group>"; };
+		C9A6D99522BECAED0080AFDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9A6D9A222BECB0D0080AFDB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C9A6D9A322BECB0D0080AFDB /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		C9A6D9A622BED9460080AFDB /* radio player.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "radio player.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9A6D96F22BECAEA0080AFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6D9A422BECB0D0080AFDB /* AVFoundation.framework in Frameworks */,
+				C9A6D9A522BECB0D0080AFDB /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98122BECAED0080AFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98C22BECAED0080AFDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9A6D96922BECAEA0080AFDB = {
+			isa = PBXGroup;
+			children = (
+				C9A6D97422BECAEA0080AFDB /* radio player */,
+				C9A6D98722BECAED0080AFDB /* radio playerTests */,
+				C9A6D99222BECAED0080AFDB /* radio playerUITests */,
+				C9A6D97322BECAEA0080AFDB /* Products */,
+				C9A6D9A122BECB0C0080AFDB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C9A6D97322BECAEA0080AFDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6D97222BECAEA0080AFDB /* radio player.app */,
+				C9A6D98422BECAED0080AFDB /* radio playerTests.xctest */,
+				C9A6D98F22BECAED0080AFDB /* radio playerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9A6D97422BECAEA0080AFDB /* radio player */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6D9A622BED9460080AFDB /* radio player.entitlements */,
+				C9A6D97522BECAEA0080AFDB /* AppDelegate.swift */,
+				C9A6D97722BECAEA0080AFDB /* ViewController.swift */,
+				C9A6D97922BECAED0080AFDB /* Assets.xcassets */,
+				C9A6D97B22BECAED0080AFDB /* Main.storyboard */,
+				C9A6D97E22BECAED0080AFDB /* Info.plist */,
+				C9A6D97F22BECAED0080AFDB /* radio_player.entitlements */,
+			);
+			path = "radio player";
+			sourceTree = "<group>";
+		};
+		C9A6D98722BECAED0080AFDB /* radio playerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6D98822BECAED0080AFDB /* radio_playerTests.swift */,
+				C9A6D98A22BECAED0080AFDB /* Info.plist */,
+			);
+			path = "radio playerTests";
+			sourceTree = "<group>";
+		};
+		C9A6D99222BECAED0080AFDB /* radio playerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6D99322BECAED0080AFDB /* radio_playerUITests.swift */,
+				C9A6D99522BECAED0080AFDB /* Info.plist */,
+			);
+			path = "radio playerUITests";
+			sourceTree = "<group>";
+		};
+		C9A6D9A122BECB0C0080AFDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9A6D9A222BECB0D0080AFDB /* AVFoundation.framework */,
+				C9A6D9A322BECB0D0080AFDB /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9A6D97122BECAEA0080AFDB /* radio player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6D99822BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio player" */;
+			buildPhases = (
+				C9A6D96E22BECAEA0080AFDB /* Sources */,
+				C9A6D96F22BECAEA0080AFDB /* Frameworks */,
+				C9A6D97022BECAEA0080AFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "radio player";
+			productName = "radio player";
+			productReference = C9A6D97222BECAEA0080AFDB /* radio player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9A6D98322BECAED0080AFDB /* radio playerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6D99B22BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio playerTests" */;
+			buildPhases = (
+				C9A6D98022BECAED0080AFDB /* Sources */,
+				C9A6D98122BECAED0080AFDB /* Frameworks */,
+				C9A6D98222BECAED0080AFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A6D98622BECAED0080AFDB /* PBXTargetDependency */,
+			);
+			name = "radio playerTests";
+			productName = "radio playerTests";
+			productReference = C9A6D98422BECAED0080AFDB /* radio playerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C9A6D98E22BECAED0080AFDB /* radio playerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A6D99E22BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio playerUITests" */;
+			buildPhases = (
+				C9A6D98B22BECAED0080AFDB /* Sources */,
+				C9A6D98C22BECAED0080AFDB /* Frameworks */,
+				C9A6D98D22BECAED0080AFDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9A6D99122BECAED0080AFDB /* PBXTargetDependency */,
+			);
+			name = "radio playerUITests";
+			productName = "radio playerUITests";
+			productReference = C9A6D98F22BECAED0080AFDB /* radio playerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9A6D96A22BECAEA0080AFDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = chrv80;
+				TargetAttributes = {
+					C9A6D97122BECAEA0080AFDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					C9A6D98322BECAED0080AFDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9A6D97122BECAEA0080AFDB;
+					};
+					C9A6D98E22BECAED0080AFDB = {
+						CreatedOnToolsVersion = 10.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C9A6D97122BECAEA0080AFDB;
+					};
+				};
+			};
+			buildConfigurationList = C9A6D96D22BECAEA0080AFDB /* Build configuration list for PBXProject "radio player" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9A6D96922BECAEA0080AFDB;
+			productRefGroup = C9A6D97322BECAEA0080AFDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A6D97122BECAEA0080AFDB /* radio player */,
+				C9A6D98322BECAED0080AFDB /* radio playerTests */,
+				C9A6D98E22BECAED0080AFDB /* radio playerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9A6D97022BECAEA0080AFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6D97A22BECAED0080AFDB /* Assets.xcassets in Resources */,
+				C9A6D97D22BECAED0080AFDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98222BECAED0080AFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98D22BECAED0080AFDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9A6D96E22BECAEA0080AFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6D97822BECAEA0080AFDB /* ViewController.swift in Sources */,
+				C9A6D97622BECAEA0080AFDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98022BECAED0080AFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6D98922BECAED0080AFDB /* radio_playerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A6D98B22BECAED0080AFDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A6D99422BECAED0080AFDB /* radio_playerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9A6D98622BECAED0080AFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A6D97122BECAEA0080AFDB /* radio player */;
+			targetProxy = C9A6D98522BECAED0080AFDB /* PBXContainerItemProxy */;
+		};
+		C9A6D99122BECAED0080AFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9A6D97122BECAEA0080AFDB /* radio player */;
+			targetProxy = C9A6D99022BECAED0080AFDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9A6D97B22BECAED0080AFDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9A6D97C22BECAED0080AFDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9A6D99622BECAED0080AFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C9A6D99722BECAED0080AFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C9A6D99922BECAED0080AFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "radio player/radio player.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C9A6D99A22BECAED0080AFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "radio player/radio player.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C9A6D99C22BECAED0080AFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio playerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radio player.app/Contents/MacOS/radio player";
+			};
+			name = Debug;
+		};
+		C9A6D99D22BECAED0080AFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio playerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/radio player.app/Contents/MacOS/radio player";
+			};
+			name = Release;
+		};
+		C9A6D99F22BECAED0080AFDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio playerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-playerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "radio player";
+			};
+			name = Debug;
+		};
+		C9A6D9A022BECAED0080AFDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "radio playerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "chrv80.radio-playerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "radio player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9A6D96D22BECAEA0080AFDB /* Build configuration list for PBXProject "radio player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6D99622BECAED0080AFDB /* Debug */,
+				C9A6D99722BECAED0080AFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6D99822BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6D99922BECAED0080AFDB /* Debug */,
+				C9A6D99A22BECAED0080AFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6D99B22BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio playerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6D99C22BECAED0080AFDB /* Debug */,
+				C9A6D99D22BECAED0080AFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A6D99E22BECAED0080AFDB /* Build configuration list for PBXNativeTarget "radio playerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9A6D99F22BECAED0080AFDB /* Debug */,
+				C9A6D9A022BECAED0080AFDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9A6D96A22BECAEA0080AFDB /* Project object */;
+}
