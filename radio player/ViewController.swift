@@ -64,38 +64,6 @@ class ViewController: NSViewController {
                 radioTitle.stringValue = key
             }
         }
-        
-        /* 
-         
-          palios kwdikas
-         
-         let stationSelected = chooseStation.indexOfSelectedItem
-         switch stationSelected {
-         case 0:
-            changeStation(radioUrl: "http://el1.info:9400/;listen.pls")
-            audioPlayer.play()
-           radioTitle.stringValue = "Radio Rwmaios 94"
-            break
-        case 1:
-            changeStation(radioUrl: "http://avanti977lamia.live24.gr:80/avanti977lamia")
-            audioPlayer.play()
-            radioTitle.stringValue = "Avanti 97.7"
-            break
-        case 2:
-            changeStation(radioUrl: "http://xroma985.live24.gr:80/xroma985")
-            audioPlayer.play()
-            radioTitle.stringValue = "Chroma 98.5"
-            break
-        case 3:
-            changeStation(radioUrl: "http://213.239.206.179:9110/;stream.mp3")
-            audioPlayer.play()
-            radioTitle.stringValue = "Kiss FM 91.1"
-            break
-        default:
-            radioTitle.stringValue = "Sfalma kata tin anaparagwgi.. \(stationSelected)"
-            break 
-         
-         */
     }
     
     @IBAction func pauseButton(_ sender: Any) {
