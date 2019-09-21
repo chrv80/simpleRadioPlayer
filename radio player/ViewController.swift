@@ -15,14 +15,16 @@ var myurlRadio = NSURL(string: urlRadio)
 var audioPlayerItem = AVPlayerItem(url: myurlRadio! as URL)
 var audioPlayer = AVPlayer(playerItem: audioPlayerItem)
 
+var stationList = ["Radio Rwmaios 94":"http://el1.info:9400/;listen.pls", "Avanti 97.7":"http://avanti977lamia.live24.gr:80/avanti977lamia", "Chroma 98.5":"http://xroma985.live24.gr:80/xroma985", "Kiss FM 91.1":"http://213.239.206.179:9110/;stream.mp3", "Metro FM 90.3":"http://metro903.live24.gr:80/metro903", "Palmos 95":"http://s7.onweb.gr:8554/"]
+
+var stationNames = [String]()
+
 class ViewController: NSViewController {
     
     @IBOutlet weak var radioTitle: NSTextField!
     @IBOutlet weak var chooseStation: NSPopUpButton!
     @IBOutlet weak var volumeSlider: NSSlider!
     
-    
-    let stationList = ["Radio Rwmaios 94", "Avanti 97.7", "Chroma 98.5", "Kiss FM 91.1"]
     
     func changeStation(radioUrl: String){
         urlRadio = radioUrl
@@ -40,8 +42,11 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         radioTitle.stringValue = "Radio Player.."
+        for (key,_) in stationList {
+            stationNames.append(key)
+        }
         chooseStation.removeAllItems()
-        chooseStation.addItems(withTitles: stationList)
+        chooseStation.addItems(withTitles: stationNames)
         chooseStation.selectItem(at: stationList.count-4)
     }
     
@@ -52,12 +57,24 @@ class ViewController: NSViewController {
     }
     
     @IBAction func playButton(_ sender: Any) {
-        let stationSelected = chooseStation.indexOfSelectedItem
-        switch stationSelected {
-        case 0:
+        for (key,value) in stationList {
+            if (key == stationNames[chooseStation.indexOfSelectedItem]) {
+                changeStation(radioUrl: value)
+                audioPlayer.play()
+                radioTitle.stringValue = key
+            }
+        }
+        
+        /* 
+         
+          palios kwdikas
+         
+         let stationSelected = chooseStation.indexOfSelectedItem
+         switch stationSelected {
+         case 0:
             changeStation(radioUrl: "http://el1.info:9400/;listen.pls")
             audioPlayer.play()
-            radioTitle.stringValue = "Radio Rwmaios 94"
+           radioTitle.stringValue = "Radio Rwmaios 94"
             break
         case 1:
             changeStation(radioUrl: "http://avanti977lamia.live24.gr:80/avanti977lamia")
@@ -76,8 +93,9 @@ class ViewController: NSViewController {
             break
         default:
             radioTitle.stringValue = "Sfalma kata tin anaparagwgi.. \(stationSelected)"
-            break
-        }
+            break 
+         
+         */
     }
     
     @IBAction func pauseButton(_ sender: Any) {
